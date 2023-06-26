@@ -36,7 +36,7 @@
                                         </button>
                                     </p>
                                 </div>
-                                <small class="text-muted">{{$fotos->User->name}}</small>
+                                <small class="text-muted">{{$foto->User->name}}</small>
                             </div>
                             <div class="collapse" id="collapseExample{{$foto->id}}">
                                 @foreach($foto->comentario as $comentario)
